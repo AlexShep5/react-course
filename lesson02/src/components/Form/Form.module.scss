@@ -1,0 +1,41 @@
+.wrap {
+    display: flex;
+    flex-direction: column;
+
+    .autor, .text {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 8px;
+
+        & input, textarea {
+            box-sizing: border-box;
+            padding: 4px ;
+            font-family: inherit;
+            min-width: 70%;
+            border: none;
+            outline: 1px solid #9FA8DA;
+        }
+
+        & textarea {
+            resize: none;
+        }
+
+    }
+
+    .btnWrap {
+        display: flex;
+        justify-content: flex-end;
+        .button {
+            min-width: 70%;
+            margin-top: 16px;
+            padding: 6px;
+            font-family: inherit;
+            background-color: #9FA8DA;
+            color: white;
+            border: none;
+            font-size: 16px;
+        }
+    }
+
+
+}
