@@ -1,0 +1,16 @@
+.wrap {
+    display: flex;
+    color: green;
+    padding: 8px 0;
+
+    .autor {
+        padding-left: 16px;
+        flex-grow: 1;
+    }
+
+    .text {
+        padding-left: 16px;
+        width: 70%;
+
+    }
+}
