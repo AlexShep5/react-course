@@ -1,0 +1,18 @@
+.wrap {
+
+    .title {
+        padding: 8px;
+        background-color: #9FA8DA;
+        color: white;
+    }
+
+    .item {
+        padding-left: 8px;
+        cursor: pointer;
+    }
+
+    & :global .MuiList-root {
+        padding: 0;
+
+    }
+}
