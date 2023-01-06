@@ -1,0 +1,22 @@
+.wrap {
+    // display: flex;
+    color: green;
+    padding: 8px 0;
+
+    .title {
+        color: #000;
+    }
+
+    .text {
+        padding-left: 16px;
+        flex-grow: 1;
+        margin-bottom: 18px;
+        font-size: 24px;
+    }
+
+    .updated, .created {
+        padding-left: 16px;
+        width: 70%;
+
+    }
+}
