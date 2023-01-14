@@ -1,0 +1,58 @@
+.wrap {
+
+  max-width: 300px;
+  margin: 0 auto;
+
+  & :global .MuiOutlinedInput-root {
+    font-size: 16px;
+    font-family: inherit
+  }
+
+  & :global .MuiInputLabel-root {
+    font-size: 16px;
+    font-family: inherit
+  }
+
+  & :global .MuiTypography-root {
+    font-size: 16px;
+    font-family: inherit;
+  }
+
+  & :global .MuiCheckbox-root.Mui-checked {
+    color: #9fa8da;
+  }
+
+  & :global .MuiOutlinedInput-root.Mui-focused fieldset {
+    border-color: #9fa8da;
+  }
+
+  & :global .MuiInputLabel-root.Mui-focused {
+    color: #000;
+  }
+
+  .email {
+    margin-top: 16px;
+    width: 100%;
+  }
+
+  .error {
+    margin-top: 16px;
+    color: red;
+  }
+
+  .btnWrap {
+    display: flex;
+    justify-content: center;
+
+    .button {
+      min-width: 60%;
+      margin-top: 32px;
+      padding: 6px;
+      font-family: inherit;
+      background-color: #9FA8DA;
+      color: white;
+      border: none;
+      font-size: 16px;
+    }
+  }
+}
