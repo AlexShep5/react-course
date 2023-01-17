@@ -1,0 +1,20 @@
+.wrap {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 8px;
+
+    li:not(:first-child) {
+        margin-left: 16px;
+    }
+
+    .link {
+        text-decoration: none;
+    }
+
+    .exitImg {
+        margin-left: 16px;
+        width: 32px;
+        cursor: pointer;
+    }
+}

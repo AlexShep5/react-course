@@ -1,0 +1,10 @@
+  .chatLink {
+    text-decoration: none;
+    color: #9FA8DA;
+    cursor: pointer;
+    text-align: center;
+
+    &:hover {
+      color: #26a69a;
+    }
+  }
