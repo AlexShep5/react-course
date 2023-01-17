@@ -1,0 +1,43 @@
+.wrap {
+
+    & :global .MuiOutlinedInput-root {
+        font-size: 16px;
+        font-family: inherit
+    }
+
+    & :global .MuiInputLabel-root {
+        font-size: 16px;
+        font-family: inherit
+    }
+
+    & :global .MuiOutlinedInput-root.Mui-focused fieldset {
+        border-color: #9fa8da;
+    }
+
+    & :global .MuiInputLabel-root.Mui-focused {
+        color: #000;
+    }
+
+    .autor, .text {
+        width: 100%;
+    }
+
+    .text {
+        margin-top: 16px;
+    }
+
+    .btnWrap {
+        display: flex;
+        justify-content: center;
+        .button {
+            min-width: 60%;
+            margin-top: 16px;
+            padding: 6px;
+            font-family: inherit;
+            background-color: #9FA8DA;
+            color: white;
+            border: none;
+            font-size: 16px;
+        }
+    }
+}
